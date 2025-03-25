@@ -22,6 +22,13 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add v2rayfree
+        git add README.md v2rayfree
         git commit -m "自动更新: $(date +'%Y-%m-%d %H:%M')"
         git push
+
+    - name: Delete workflow runs  
+      uses: Mattraks/delete-workflow-runs@main  
+      continue-on-error: true  
+      with:  
+        retain_days: 1  
+        keep_minimum_runs: 0
