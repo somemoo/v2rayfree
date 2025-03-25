@@ -2,7 +2,7 @@ name: Auto Update v2rayfree
 
 on:
   schedule:
-    - cron: '0 2,12 * * *'
+    - cron: '40 0,4,8,12,16,20 * * *'
   workflow_dispatch: 
 
 jobs:
@@ -15,10 +15,8 @@ jobs:
 
     - name: Update timestamp and content
       run: |
-        sed -i "2s/.*/更新时间：$(date +%Y-%m-%d)/" v2rayfree
-        head -n 2 v2rayfree > tempfile
-        curl -s https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 >> tempfile
-        mv tempfile v2rayfree
+        sed -i "3s/.*/更新时间：$(date +%Y-%m-%d)/" README.md
+        curl -s https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 > v2rayfree
 
     - name: Commit changes
       run: |
