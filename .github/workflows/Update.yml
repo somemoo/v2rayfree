@@ -15,7 +15,7 @@ jobs:
 
     - name: Update timestamp and content
       run: |
-        sed -i "3s/.*/更新时间：$(date +%Y-%m-%d)/" README.md
+        sed -i "2s/.*/更新时间：$(date +%Y-%m-%d)/" README.md
         curl -s https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 > v2rayfree
 
     - name: Commit changes
