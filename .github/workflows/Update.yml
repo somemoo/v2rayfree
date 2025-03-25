@@ -3,6 +3,7 @@ name: Auto Update v2rayfree
 on:
   schedule:
     - cron: '0 2,12 * * *'
+  workflow_dispatch: 
 
 jobs:
   update:
