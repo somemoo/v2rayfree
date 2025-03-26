@@ -109,7 +109,6 @@ proxies:
   - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 47.129.223.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.13.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇭🇰 13|香港|@ripaojiedian, server: 38.147.188.94, port: 53199, type: vmess, uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 13|香港2|@ripaojiedian, server: 183.232.229.164, port: 11002, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZTE5ZmNlYi1jZWRjLTQ4MzItYjQ2MC1mY2NmMjRmZGM4YmU, udp: true}
   - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 120.232.153.63, port: 40102, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 13|香港5|@ripaojiedian, server: 103.149.183.61, port: 8388, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY, udp: true}
   - {name: 🇭🇰 13|香港4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206Ukc3T1FYN1M1T0lVM0FMNA, udp: true}
