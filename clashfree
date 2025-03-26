@@ -89,7 +89,6 @@ proxies:
   - {name: 🇧🇷 2|🇧🇷巴西 01 | 1x BR, server: free.2apzhfa.xyz, port: 31671, type: ss, cipher: chacha20-ietf-poly1305, password: e196bff1-9e1f-4600-aa46-c801c2157adb, udp: true}
   - {name: 🇮🇩 2|🇮🇩印度尼西亚 01 | 1x ID, server: free.2apzhfa.xyz, port: 31677, type: ss, cipher: chacha20-ietf-poly1305, password: e196bff1-9e1f-4600-aa46-c801c2157adb, udp: true}
   - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: 38.147.188.94, port: 53199, type: vmess, uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 183.232.229.164, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
   - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: 120.232.153.63, port: 40102, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 12|🇭🇰 香港4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: aes-256-gcm, password: RG7OQX7S5OIU3AL4, udp: true}
