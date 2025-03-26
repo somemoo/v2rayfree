@@ -5,3 +5,8 @@
 ```
 https://raw.githubusercontent.com/somemoo/v2rayfree/main/v2rayfree
 ```
+
+加速地址:
+```
+https://cdn.jsdelivr.net/gh/somemoo/v2rayfree@main/v2rayfree
+```
